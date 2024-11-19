@@ -1,0 +1,154 @@
+.Container{
+  width: 100%;
+}
+.FullWidth{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondContianer{
+  max-width: 420px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.MiniContainer{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header{
+  max-width: 1140px;
+  width: 90%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+.SeoLogo{
+  width: 100px;
+  height: 100px; 
+  object-fit:cover;
+}
+.SeoHeaderDiv1{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.googleButton{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.googleIcon{
+  width: 20px;
+  height: 20px;
+}
+.googleText{
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+.Banner{
+  width: 100%;
+  background: #5ba63b;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.BannerTitle{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.BannerInput{
+  padding: 8px 16px;
+  
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+input::placeholder {
+  color: #d9d9d9; 
+  opacity: 1; 
+}
+.bannerButton{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: black;
+  font-family: 'Poppins', sans-serif;
+  color: white; 
+  font-size: 14px;
+  font-weight: bold;
+  border:1px solid black;
+  border-radius: 10px;
+}
+@media screen and (max-width: 900px){
+  .BannerInput{
+    min-width: 200px;
+  }
+}
+.TextContainerText{
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  text-align: justify;
+  width: 100%;
+  font-weight: 600;
+}
+.footerDiv{
+  background: #5ba63b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footerText{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 12px;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #fa0;
+  border-top: 10px solid tomato;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+select option {
+  background-color: black;
+}
